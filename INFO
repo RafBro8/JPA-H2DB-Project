@@ -1,0 +1,16 @@
+JPA - Java Persistance API
+
+JPA vs Hibernate
+
+JPA - is an Interface, a specification
+
+Hibernate - implements JPA (for example you have an Interface and you have Classes implementing that Interface).
+JPA is the Interface, Hibernate is the Implementation
+
+JPA defines the specification. It is an API.
+- How to define entities
+- How to map attributes
+- How to map relationships between entities
+- Manage entities
+
+
