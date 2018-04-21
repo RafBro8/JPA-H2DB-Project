@@ -8,6 +8,9 @@ import javax.persistence.PersistenceContext;
 import javax.transaction.Transactional;
 
 
+//Save user to DB using UserDAOService
+
+
 @Repository        //interacts with the DB
 @Transactional     //means each Method in this Class will be involved in DB Transaction
 public class UserDAOService {     //User DAO Service - Data Access Object - helps access data for the DB
@@ -28,3 +31,6 @@ public class UserDAOService {     //User DAO Service - Data Access Object - help
         return user.getId();
     }
 }
+
+
+//H2 URL - http://localhost:8080/h2-console

@@ -30,6 +30,7 @@ public class UserDAOServiceCommandLineRunner implements CommandLineRunner {
         log.info("New User is created" + user);
 //output in SpringBoot Console when Application is run:
 //2018-04-19 22:15:42.592  INFO 4940 --- [main] .j.h.p.s.UserDAOServiceCommandLineRunner : New User is createdUser{id=1, name='Raf', role='Boss'}
+        //available through Command Line Runner
 
     }
 }
